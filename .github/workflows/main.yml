@@ -3,8 +3,8 @@ name: 'gym-appoint'
 on:
   # push:
     
-#  schedule:
-#     - cron: '3,8 14 * * 2,4,5,0'
+  schedule:
+     - cron: '0,1 4 * * *'
 #    - cron: '3,8 12 * * 2,4,5,0'
    #预约每周1,3,5,7
 jobs:
